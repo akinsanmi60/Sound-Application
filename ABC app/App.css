@@ -1,0 +1,47 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: linear-gradient(to right, #6b5462, #a01a58, #723c70)
+    }
+
+    .keys{
+    border: 3px solid;
+	border-radius: 5px;
+    background: grey;
+	box-shadow: 0 0 15px 1px rgba(0,0 , 0, 0.56);
+	padding: 20px;
+	box-sizing: border-box;
+	width: 50%;
+    min-height: 200px;
+	margin: 100px auto;
+    }
+
+
+  
+    .key{
+        margin: 5px 5px;
+        border: 2px solid;
+        border-radius: 5px;
+        width: 9%;
+        padding: 10px 10px;
+        font-size: 15px;
+        transition:all 0.07s;
+        color: black;
+        background: lightpink;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+    }
+
+    .number-keys,
+    .alphabet-keys{
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .playing{
+        transform: scale(1);
+        border-color: green;
+        box-shadow: green;
+    }
